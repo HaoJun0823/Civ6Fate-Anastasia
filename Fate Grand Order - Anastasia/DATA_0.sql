@@ -1,0 +1,184 @@
+-- DATA_0
+-- Author: HaoJun0823
+-- DateCreated: 7/18/2022 4:09:33 PM
+--------------------------------------------------------------
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION', 'YieldType', 'YIELD_PRODUCTION');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_FAITH');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_FAITH', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_FAITH', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_FAITH', 'YieldType', 'YIELD_FAITH');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION_HILLS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION_HILLS', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION_HILLS', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_PRODUCTION_HILLS', 'YieldType', 'YIELD_PRODUCTION');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_FAITH_HILLS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_FAITH_HILLS', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_FAITH_HILLS', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_FAITH_HILLS', 'YieldType', 'YIELD_FAITH');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW', 'REQUIRES_FGO_ANA_PLOT_NOT_HAS_TUNDRA');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW', 'REQUIRES_FGO_ANA_PLOT_NOT_HAS_TUNDRA_HILLS');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW', 'REQUIRES_FGO_ANA_PLOT_NOT_HAS_SNOW');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_NOT_TUNDRA_SNOW', 'REQUIRES_FGO_ANA_PLOT_NOT_HAS_SNOW_HILLS');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_TUNDRA', 'REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES', 1);
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_TUNDRA', 'TerrainType', 'TERRAIN_TUNDRA');
+
+INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_TUNDRA_HILLS', 'REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES', 1);
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_TUNDRA_HILLS', 'TerrainType', 'TERRAIN_TUNDRA_HILLS');
+
+INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_SNOW', 'REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES', 1);
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_SNOW', 'TerrainType', 'TERRAIN_SNOW');
+
+INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_SNOW_HILLS', 'REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES', 1);
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQUIRES_FGO_ANA_PLOT_NOT_HAS_SNOW_HILLS', 'TerrainType', 'TERRAIN_SNOW_HILLS');
+
+---
+
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_SCIENCE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_SCIENCE', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_SNOW');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_SCIENCE', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_SCIENCE', 'YieldType', 'YIELD_SCIENCE');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_CULTURE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_CULTURE', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_SNOW');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_CULTURE', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_CULTURE', 'YieldType', 'YIELD_CULTURE');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_SCIENCE_HILLS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_SCIENCE_HILLS', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_SNOW_HILLS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_SCIENCE_HILLS', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_SCIENCE_HILLS', 'YieldType', 'YIELD_SCIENCE');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_CULTURE_HILLS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_CULTURE_HILLS', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'REQSET_FGO_ANA_PLOT_IS_SNOW_HILLS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_CULTURE_HILLS', 'Amount', '1'), 
+('MODIFIER_ALL_PLOT_MODIFIER_CULTURE_HILLS', 'YieldType', 'YIELD_CULTURE');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_SNOW', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_SNOW', 'REQUIRES_FGO_ANA_PLOT_HAS_SNOW');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES 
+('REQUIRES_FGO_ANA_PLOT_HAS_SNOW', 'REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQUIRES_FGO_ANA_PLOT_HAS_SNOW', 'TerrainType', 'TERRAIN_SNOW');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_SNOW_HILLS', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_FGO_ANA_PLOT_IS_SNOW_HILLS', 'REQUIRES_FGO_ANA_PLOT_HAS_SNOW_HILLS');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES 
+('REQUIRES_FGO_ANA_PLOT_HAS_SNOW_HILLS', 'REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQUIRES_FGO_ANA_PLOT_HAS_SNOW_HILLS', 'TerrainType', 'TERRAIN_SNOW_HILLS');
+
+---
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_GOLD');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_GOLD', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'PLOT_HAS_TUNDRA_REQUIREMENTS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_GOLD', 'Amount', '2'), 
+('MODIFIER_ALL_PLOT_MODIFIER_GOLD', 'YieldType', 'YIELD_GOLD');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+('TRAIT_LEADER_FGO_ANASTASIA', 'MODIFIER_ALL_PLOT_MODIFIER_GOLD_HILLS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_GOLD_HILLS', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODIFIER_ALL_PLOT_MODIFIER_GOLD_HILLS', 'Amount', '2'), 
+('MODIFIER_ALL_PLOT_MODIFIER_GOLD_HILLS', 'YieldType', 'YIELD_GOLD');

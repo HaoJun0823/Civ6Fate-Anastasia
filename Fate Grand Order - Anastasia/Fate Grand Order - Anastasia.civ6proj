@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Fate/Grand Order - Anastasia Nikolaevna Romanova</Name>
+    <Guid>d0b182cf-e057-4ca4-aea3-a2adacec3772</Guid>
+    <ProjectGuid>b307d866-ae0e-4ab7-82b9-dfee0edbeba4</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Viy,Viy,Viy!</Teaser>
+    <Description>Add New Leader From Fate/Grand Order:Anastasia.</Description>
+    <Authors>HaoJun0823</Authors>
+    <SpecialThanks>All players, modders and TYPE-MOON.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Fate Grand Order - Anastasia</AssemblyName>
+    <RootNamespace>Fate Grand Order - Anastasia</RootNamespace>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_FGO_ANASTASIA,Players:Expansion1_Players::LEADER_FGO_ANASTASIA,Players:Expansion2_Players::LEADER_FGO_ANASTASIA</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_FGO_ANASTASIA</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_FGO_ANASTASIA</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="FGO_ANA_GAME_DATA"><Criteria>LeaderCriteria</Criteria><File>leader.xml</File><File>DATA_0.sql</File><File>DATA_1.sql</File></UpdateDatabase><UpdateIcons id="FGO_ANA_GAME_ICON"><Criteria>LeaderCriteria</Criteria><File>icons.xml</File></UpdateIcons><UpdateText id="FGO_ANA_GAME_TEXT"><Criteria>LeaderCriteria</Criteria><File>game_loc.xml</File><File>pre_loc.xml</File><File>game_loc_HK.xml</File><File>Game_loc_Base.xml</File></UpdateText><AddUserInterfaces id="FGO_ANA_GAME_LUA"><Properties><Context>InGame</Context></Properties><Criteria>LeaderCriteria</Criteria></AddUserInterfaces><UpdateArt id="FGO_ANA_GAME_ART"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="FGO_ANA_GAME_COLORS"><Criteria>LeaderCriteria</Criteria><File>ANA_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="FGO_ANA_DATA"><File>config.xml</File></UpdateDatabase><UpdateColors id="FGO_ANA_COLOR"><File>ANA_PlayerColors.xml</File></UpdateColors><UpdateIcons id="FGO_ANA_ICON"><File>icons.xml</File></UpdateIcons><UpdateText id="FGO_ANA_TEXT"><File>pre_loc.xml</File></UpdateText><UpdateArt id="FGO_ANA_ART"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823</Homepage>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fate Grand Order - Anastasia.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ANAGAMESCRIPT.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA_0.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA_1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="game_loc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Game_loc_Base.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="game_loc_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ANA_PlayerColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="pre_loc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ANAGAMESCRIPT.lua">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

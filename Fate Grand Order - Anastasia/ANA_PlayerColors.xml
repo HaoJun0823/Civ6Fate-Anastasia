@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PlayerColors -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/18/2022 3:48:49 PM -->
+<GameData>
+	<PlayerColors>
+
+		<Row>
+			<Type>LEADER_FGO_ANASTASIA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_WHITE_LT</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_AQUA_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_BLUE_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_BLUE_MD</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_YELLOW_MD</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt3SecondaryColor>
+		</Row>		
+		
+	</PlayerColors>
+</GameData>

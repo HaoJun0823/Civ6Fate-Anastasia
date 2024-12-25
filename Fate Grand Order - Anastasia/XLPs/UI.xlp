@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_256"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_32"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_45"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_48"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_50"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_55"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_64"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FGO_ANASTASIA_80"/>
+			<m_ObjectName text="ICON_LEADER_FGO_ANASTASIA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_FGO_ANASTASIA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_FGO_ANASTASIA_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_FGO_ANASTASIA_NEUTRAL_LOADING"/>
+			<m_ObjectName text="LEADER_FGO_ANASTASIA_NEUTRAL_LOADING"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

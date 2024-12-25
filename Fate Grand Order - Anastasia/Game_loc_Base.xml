@@ -1,0 +1,143 @@
+<GameData>
+
+
+	<BaseGameText>
+
+		<Row Tag="LOC_CITY_NAME_LEADER_FGO_ANASTASIA" >
+			<!-- capital city name -->
+			<Text>St. Petersburg</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you declare friendship permission to AI -->
+			<Text> Got it, that's fine. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you declare friendship rejected to AI -->
+			<Text>No. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When AI declares friendship to you -->
+			<Text>If we don't cooperate, we will fail... think about it. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you agree with AI's declared friendship to you -->
+			<Text>Well, good. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you reject the AI's declared friendship -->
+			<Text>Oops...unexpected results. </Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When AI agrees with your delegation -->
+			<Text>Allowed. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When AI rejects your delegation -->
+			<Text>No. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<Text>This is ramen, although it's not a specialty of our country, but I like it very much. </Text>
+			<!-- Leader Diplomatic Message: When the AI ​​sends a delegation -->
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you publicly criticize the AI-->
+			<Text>Get ready to die. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When AI publicly accuses you-->
+			<Text>You want to be annoying. [NEWLINE](Blame you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you first encounter AI-->
+			<Text>Hello Anastasia, this is your answer. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you first met the AI ​​and he had a crush on you? -->
+			<Text>I'm Anastasia, how are you? </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: When you first met the AI ​​and he was more aggressive? -->
+			<Text>Nice to meet you, my name is Anastasia. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Information: General greeting -->
+			<Text>Hello. ~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Information: Prerequisites for AI's increased favor with you-->
+			<Text>It is a pleasure to be your ally. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FGO_ANASTASIA_REASON_ANY" >
+			<!-- Leader Diplomatic Message: A description of how the AI's favor with you has increased -->
+			<Text>(Anastasia's affection for you increased)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Information: Prerequisites for AI's less favorable opinion of you-->
+			<Text>Unreasonable...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FGO_ANASTASIA_REASON_ANY" >
+			<!-- Leader Diplomatic Message: A description of how the AI's favor towards you has decreased-->
+			<Text>(Anastasia's affection for you decreased)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI allows you to ally -->
+			<Text>If you don't choose to move forward together, you will be lost in the past...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI grants your peace request-->
+			<Text>Well, got it. </Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI initiates a request for peace -->
+			<Text>Put down your weapon. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI promises you to pass through his territory-->
+			<Text>Allow, keep warm. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI refuses you to pass through his territory-->
+			<Text>The blizzard was too big. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI asks if you would like his troops to pass through your territory -->
+			<Text>I want to pass your territory. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FGO_ANASTASIA_ANY" >
+			<!-- Leader Diplomatic Message: AI says your army is bad-->
+			<Text>Your combat power is too low. </Text>
+		</Row>
+
+
+	</BaseGameText>
+
+
+</GameData>

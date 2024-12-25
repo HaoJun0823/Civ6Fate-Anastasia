@@ -1,0 +1,200 @@
+<!-- 文明6 InGame 领袖-文明语言模板 -->
+<!-- 作者：兰德里奥（HaoJun0823） -->
+<!-- https://steamcommunity.com/id/HaoJun0823 -->
+<!-- 模板创建时间：2018年12月30日 版本号：2-->
+<!-- 默认数据为：Fate 秦始皇和 Fate 查理曼-->
+<!-- 可转载，修改，分享，不可去除以上信息 -->
+
+<!-- 麻烦填写以下信息用于标记 -->
+
+<!-- 内容： -->
+<!-- 作者： -->
+<!-- 日期： -->
+<!-- 描述： -->
+
+<!--   从 <LocalizedText> 到 </LocalizedText> 复制一个到末尾然后再把 Language里面的内容批量修改成别的就是另一种语言的内容了 -->
+<!--   繁体直接转换： http://www.aies.cn/ -->
+<!--   英文可查询： https://translate.google.cn/ -->
+
+<!--
+rowid	Locale	Name	Collator	PluralRule	SupportsSmallCaps
+1		en_US	English		2	True
+2		fr_FR	Français		3	True
+3		de_DE	Deutsch		2	True
+4		it_IT	Italiano		2	True
+5		es_ES	Español		2	True
+6		ja_JP	日本語 (Japanese)		1	False
+7		ru_RU	Русский (Russian)		8	True
+8		pl_PL	polski		10	True
+9		ko_KR	한국어/조선말 (Korean)		1	False
+10		zh_Hant_HK	汉语/漢語 (Traditional Chinese)		1	False
+11		zh_Hans_CN	汉语/漢語 (Simplified Chinese)		1	False
+12		pt_BR	Português do Brasil		3	True
+-->
+
+<!-- Locale中的内容替换到Language里就是该语言的文本信息 -->
+
+<!-- 简体中文 -->
+<GameData>
+
+	<BaseGameText>
+
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FGO_ANASTASIA">
+			<!-- 载入界面 -->
+			<Text>Viy,Viy,Viy!</Text>
+		</Row>
+
+	</BaseGameText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CITY_NAME_LEADER_FGO_ANASTASIA" Language="zh_Hans_CN">
+			<!-- 首都城市名字 -->
+			<Text>圣彼得堡</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+			<Text>明白了，这样很好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+			<Text>不可以。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+			<Text>如果不合作，我们就会失败……考虑一下吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+			<Text>嗯，很好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+			<Text>哎呀……意想不到的结果。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI同意你的代表团-->
+			<Text>允许了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+			<Text>不可以。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<Text>这是拉面，虽然并不是我们国家的特产，但我很喜欢。</Text>
+			<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你公开指责AI-->
+			<Text>准备好去死吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI公开指责你-->
+			<Text>你想当惹人生气。[NEWLINE]（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI-->
+			<Text>你好，阿纳斯塔西娅，在此回应你。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他对你有好感的时候？-->
+			<Text>我是阿纳斯塔西娅，你那边如何？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他比较积极的时候？-->
+			<Text>很高兴认识你，我是阿纳斯塔西娅。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 一般打招呼用-->
+			<Text>你好。~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+			<Text>很高兴和你成为盟友。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FGO_ANASTASIA_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+			<Text>（阿纳斯塔西娅对您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+			<Text>不可理喻……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FGO_ANASTASIA_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+			<Text>（阿纳斯塔西娅对您的好感减少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI允许你同盟-->
+			<Text>如果不选择一起前进，便会遗失于过去……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你和平的请求-->
+			<Text>嗯，明白了。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI主动提出和平的请求-->
+			<Text>放下手中的武器吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你通过他的领地-->
+			<Text>允许，注意保暖。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+			<Text>暴风雪太大了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+			<Text>我想通过你的领地。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FGO_ANASTASIA_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI说你军队差劲-->
+			<Text>你的战斗力太低了。</Text>
+		</Row>
+
+
+
+
+		<!-- 领袖信息结束-->
+
+
+	</LocalizedText>
+	<!-- 简体中文结束 -->
+	<!-- 写完了吗？麻烦复制一下写英文和繁体中文的吧 -->
+	<!--   从 简体中文的<LocalizedText> 到 </LocalizedText> 复制一个到末尾然后再把 Language里面的内容批量修改成别的就是另一种语言的内容了 -->
+	<!--   繁体直接转换： http://www.aies.cn/ -->
+	<!--   英文可查询： https://translate.google.cn/ -->
+
+
+
+</GameData>

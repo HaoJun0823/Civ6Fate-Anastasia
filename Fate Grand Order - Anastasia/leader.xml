@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 11/13/2021 11:54:40 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_FGO_ANASTASIA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_FGO_ANASTASIA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_FGO_ANA" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_FGO_ANASTASIA" Name="LOC_LEADER_FGO_ANASTASIA_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FGO_ANASTASIA" Quote="LOC_LOADING_INFO_LEADER_FGO_ANASTASIA"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_FGO_ANASTASIA" Name="LOC_TRAIT_LEADER_FGO_ANASTASIA_NAME" Description="LOC_TRAIT_LEADER_FGO_ANASTASIA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_FGO_ANA" Name="LOC_TRAIT_LEADER_FGO_ANASTASIA_NAME" Description="LOC_LOADING_INFO_LEADER_FGO_ANASTASIA"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FGO_ANASTASIA" TraitType="TRAIT_LEADER_FGO_ANASTASIA"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FGO_ANASTASIA" ForegroundImage="LEADER_FGO_ANASTASIA_NEUTRAL_LOADING" BackgroundImage="" PlayDawnOfManAudio="0" LeaderText="LOC_LOADING_INFO_LEADER_FGO_ANASTASIA"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_FGO_ANASTASIA" BackgroundImage=""/>
+	</DiplomacyInfo>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_RUSSIA" LeaderType="LEADER_FGO_ANASTASIA" CapitalName="LOC_CITY_NAME_LEADER_FGO_ANASTASIA"/>
+	</CivilizationLeaders>
+	<Agendas>
+		<Row AgendaType="AGENDA_FGO_ANA" Name="LOC_TRAIT_LEADER_FGO_ANASTASIA_NAME" Description="LOC_LOADING_INFO_LEADER_FGO_ANASTASIA"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_FGO_ANASTASIA" AgendaType="AGENDA_FGO_ANA"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_FGO_ANA" TraitType="TRAIT_AGENDA_FGO_ANA"/>
+	</AgendaTraits>
+</GameData>

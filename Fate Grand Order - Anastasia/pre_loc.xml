@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pre_loc -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 11/13/2021 11:54:24 PM -->
+<GameData>
+
+	<BaseGameText>
+
+
+		<!-- Leader name from Config-->
+		<Row Tag="LOC_LEADER_FGO_ANASTASIA_NAME" >
+			<Text>Anastasia</Text>
+		</Row>
+
+		<!-- Leader skill description from Config-->
+		<Row Tag="LOC_TRAIT_LEADER_FGO_ANASTASIA_DESCRIPTION" >
+			<Text>Enhance the characteristics of civilization, all fields except snow field and frozen ground +1 [ICON_FAITH] and [ICON_PRODUCTION], snow field +1 [ICON_CULTURE] and [ICON_SCIENCE], frozen ground +2 [ICON_GOLD], new city territory is wider . [NEWLINE]Dark Age, Combat Strength +10, Golden Age, Construction Area Speed +100%, in any period, Great Businessman, Great Engineer, Great Scientist will have a 33% bonus to the Great Person Points. Units on the continent where the motherland is located Mobility +4. [NEWLINE]</Text>
+		</Row>
+
+		<!-- Leader skill name from Config-->
+		<Row Tag="LOC_TRAIT_LEADER_FGO_ANASTASIA_NAME" >
+			<Text>Viy Viy Viy</Text>
+		</Row>
+		
+	</BaseGameText>
+
+	<LocalizedText>
+
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_LEADER_FGO_ANASTASIA_NAME" Language="zh_Hans_CN">
+			<Text>阿纳斯塔西娅</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_FGO_ANASTASIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>强化文明特性，雪原与冻土以外所有地块+1[ICON_FAITH]与[ICON_PRODUCTION]，雪原+1[ICON_CULTURE]与[ICON_SCIENCE]，冻土+2[ICON_GOLD]， 新城市领土范围更加宽广。[NEWLINE]黑暗时代，战斗力+10，黄金时代，建造区域速度+100%，在任何时期，大商人，大工程师，大科学家的伟人点数都会有33%的加成，在祖国所处大陆的单位移动力+4。[NEWLINE]</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_FGO_ANASTASIA_NAME" Language="zh_Hans_CN">
+			<Text>疾驰·精灵眼球</Text>
+		</Row>
+
+		<!-- 領袖名稱 來自Config-->
+		<Row Tag="LOC_LEADER_FGO_ANASTASIA_NAME" Language="zh_Hant_HK">
+			<Text>阿納斯塔西婭</Text>
+		</Row>
+
+		<!-- 領袖技能說明 來自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_FGO_ANASTASIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化文明特性，雪原與凍土以外所有地塊+1[ICON_FAITH]與[ICON_PRODUCTION]，雪原+1[ICON_CULTURE]與[ICON_SCIENCE]，凍土+2[ICON_GOLD]， 新城市領土範圍更加寬廣。[NEWLINE]黑暗時代，戰鬥力+10，黃金時代，建造區域速度+100%，在任何時期，大商人，大工程師，大科學家的偉人點數都會有33%的加成，在祖國所處大陸的單位移動力+4。[NEWLINE]</Text>
+		</Row>
+
+		<!-- 領袖技能名稱 來自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_FGO_ANASTASIA_NAME" Language="zh_Hant_HK">
+			<Text>疾馳·精靈眼球</Text>
+		</Row>
+
+	</LocalizedText>	
+	
+</GameData>

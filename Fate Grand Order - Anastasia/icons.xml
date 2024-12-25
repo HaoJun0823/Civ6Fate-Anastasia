@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icons -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 11/13/2021 11:58:35 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="32" Filename="ICON_LEADER_FGO_ANASTASIA_32"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="45" Filename="ICON_LEADER_FGO_ANASTASIA_45"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="48" Filename="ICON_LEADER_FGO_ANASTASIA_48"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="50" Filename="ICON_LEADER_FGO_ANASTASIA_50"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="55" Filename="ICON_LEADER_FGO_ANASTASIA_55"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="64" Filename="ICON_LEADER_FGO_ANASTASIA_64"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="80" Filename="ICON_LEADER_FGO_ANASTASIA_80"/>
+		<Row Name="ATLAS_ICON_LEADER_FGO_ANASTASIA" IconSize="256" Filename="ICON_LEADER_FGO_ANASTASIA_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_FGO_ANASTASIA" Atlas="ATLAS_ICON_LEADER_FGO_ANASTASIA" Index="0"/>
+	</IconDefinitions>
+</GameData>
